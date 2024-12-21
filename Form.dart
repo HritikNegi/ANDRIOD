@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context){
     return MaterialApp(
       title: 'SELF DECLARATION FORM',
-      theme: ThemeData(),
+      theme: ThemeData( primarySwatch: Colors.blueGrey),
       home:  MyForm(),
     );
   }
